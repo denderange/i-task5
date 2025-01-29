@@ -16,7 +16,8 @@ import { useUserSettingsStore } from '../../store/store';
 const TopBar = () => {
   const initialSeed = '12345'; // I suppose it should be equal userId...
   const initialPage = 1;
-  const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
+  // const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
+  const baseURL = 'https://i-task5-2730pupe3-denderanges-projects.vercel.app/';
 
   const { language, setLanguage, likes, setLikes, reviews, setReviews } =
     useUserSettingsStore();
